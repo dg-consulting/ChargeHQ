@@ -1,3 +1,5 @@
+BROKEN - Enphase are now activley rolling out version 7 Envoy firmware which requires a time limited authentication token to access the data on our own local solar instalations. Enphase say that this improves our security however it now means we have to store our Enphase website username and pasword on our server in order to renew the token progmatically. I personally struggle to understand how this is an improvement to my security. Enphase's actions break this script and any other scripts designed for Envoy firmware earlier than version 7. I will look into how best to update this script at some point in the future but for now, if like mine, your Envoy is on version 7.x firmware, this script will no longer work for you. 
+
 Python script to take solar data from a local Enphase Envoy and push it to the ChargeHQ API.  
 Created because ChargeHQ is unable to support Enphase nativley due to Enphase 3rd party access policy.  
 
