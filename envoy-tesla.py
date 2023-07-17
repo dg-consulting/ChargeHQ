@@ -10,7 +10,7 @@ apiKey = '440e...30accca'
 # REPLACE ITEMS BELOW 
 user='your_mail'
 password='PWD'
-envoy_serial='serial_number_enjoy'
+envoy_serial='serial_number_envoy'
 # DO NOT CHANGE ANYTHING BELOW
 
 data = {'user[email]': user, 'user[password]': password}
